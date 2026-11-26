@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+
+#boardGame {
+    width: 600px;
+    height: 400px;
+
+    position: relative;
+
+
+    /*Atribui uma imagem ao elemento html */
+    background-image: url(https://cdn.awsli.com.br/600x700/1238/1238683/produto/47846397/df84d81371.jpg);
+    /*Faz a imagem preencher todo o elemento*/
+    background-size: cover;
+    /*Posiciona a imagem a partir da parte inferior*/
+    background-position: bottom;
+    /*Esconde os elementos que ficam fora do boardGame*/
+    overflow: hidden;
+}
+
+#personagem {
+    width: 64px;
+    height: 64px;
+    background-color: yellow;
+    /*Posicionamento do personagem*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+
+
+

@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Consi*/
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container{
+    display: grid;
+    height: 400px;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+
+}
+
+div{
+    
+    width: 100px;
+}
+
+.primeiro{
+    background-color: beige;
+}
+
+.segundo{
+    background-color: burlywood;
+}
+
+.terceiro{
+    background-color: darkgoldenrod;
+}
+
+.quarto{
+    background-color: chocolate;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+ 
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+ 
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing eli</p>
+            <button class="cta-btn" id="open">Entrar</button>
+       
+    </header>
+ 
+    <section class="container">
+        <h2>Saiba mais sobre</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, temporibus? Id deserunt placeat
+            praesentium eligendi ipsam veniam nesciunt, veritatis laudantium tempore, cupiditate animi. Nam culpa omnis
+            delectus a ipsam facere.</p>
+    </section>
+ 
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button id="close">
+                <i class="fa fa-times"></i>
+            </button>
+        </div>
+ 
+        <div class="modal-header">
+            <h2>Cadastre-se</h2>
+            <p>Registre-se e saiba mais</p>
+        </div>
+ 
+        <div class="modal-content">
+            <form class="modal-form">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                </div>
+ 
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+                </div>
+               
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha">
+                </div>
+               
+                <div>
+                    <label for="senha2">Confirmar Senha</label>
+                    <input type="password" id="senha2">
+                </div>
+                <input type="submit" value="Cadastro" class="submit-btn">
+            </form>
+        </div>
+ 
+    </div>
+ 
+</body>
+ 
+</html>
